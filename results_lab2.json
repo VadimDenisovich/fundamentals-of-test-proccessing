@@ -1,0 +1,18 @@
+{
+  "TF-IDF + LR": {
+    "representation": "TF-IDF (1-2 grams, 20k)",
+    "test_accuracy": 0.867
+  },
+  "avg GloVe + LR": {
+    "representation": "mean GloVe-100",
+    "test_accuracy": 0.794
+  },
+  "NN (random embeddings)": {
+    "representation": "trained Embedding-100",
+    "test_accuracy": 0.8149999976158142
+  },
+  "NN (frozen GloVe)": {
+    "representation": "pretrained GloVe-100",
+    "test_accuracy": 0.777999997138977
+  }
+}
